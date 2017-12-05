@@ -1,0 +1,36 @@
+.btn {
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+
+    a {
+        border: none;
+    }
+
+    p {
+      margin: 0;
+    }
+}
+
+.btn-principal {
+	background: #ffbf01;
+	color: #fff;
+}
+
+.btn-principal:hover {
+    background: #cc960e; 
+    
+    a {
+        color: #fff;
+    }
+}
+
+.btn-principal__replay {
+    float: right;
+    margin: $space-base 0 0 0;
+
+    @include query(975px) {
+        margin: $space-base $space-medium 0 0;
+    }
+}

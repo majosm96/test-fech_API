@@ -1,0 +1,14 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Base environment for static site development",
+  "scripts": {
+    "dev": "gulp dev",
+    "styleguide": "gulp styleguide",
+    "build": "gulp build",
+    "clean": "gulp clean"
+  },
+  "author": "María José Solís  <majosm96@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {}
+}
